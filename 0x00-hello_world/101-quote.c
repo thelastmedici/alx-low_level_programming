@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-	char var[]="and that piece of art is useful\"- Dora korper, 2015-10-19\n";
-	write(2, var, sizeof(var) - 1);
-	rteturn (1);
+	write (2, "and  that piece of srt is useful\" - Dora Korpar , 2015-10-19\n", 59);
+	return(1);
 }
+
 
