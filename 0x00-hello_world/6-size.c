@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the size of various types
+ * main - main block
  * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
@@ -8,7 +8,7 @@ int main(void)
 char charType;
 int  intType;
 long int longIntType;
-long long int longLongType
+long long int longLongType;
 float floatType;
 
 printf("Size of a char: %ld bytes(s)\n", sizeof(charType));
