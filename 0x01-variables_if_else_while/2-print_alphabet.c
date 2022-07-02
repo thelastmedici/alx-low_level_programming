@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - prints all letter of the alphabet in lower case
  *
@@ -6,12 +7,11 @@
  */
 int main(void)
 {
-	int ch;
-	for (ch = 97; ch <= 122; ch++)
+	char var 
+	for (var = 'a'; var <= 'z'; var++)
 	{
-		putchar(ch);
+		putchar(var);
 	}
-	putchar("\n");
-
+	putchar('\n');
 	return (0);
 }
