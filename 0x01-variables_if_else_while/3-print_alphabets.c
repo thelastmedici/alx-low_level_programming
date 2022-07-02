@@ -10,11 +10,10 @@ int main(void)
 	char var;
 	char var1;
 
-	for (var = 'a'; var <= 'z'; var ++)
+	for (var = 'a'; var <= 'z'; var++)
 	{
 		putchar(var);
 	}
-	
 	for (var1 = 'A'; var1 <= 'Z'; var1++)
 	{
 		putchar(var1);
