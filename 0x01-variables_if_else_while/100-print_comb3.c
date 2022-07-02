@@ -13,7 +13,7 @@ int main(void)
 	{
 		int ii;
 
-		for (ii = var + 1; ii < 10; i++)
+		for (ii = var + 1; ii < 10; ii++)
 		{
 			putchar((var % 10) + '0');
 			putchar((ii % 10) + '0');
