@@ -5,13 +5,13 @@
  *
  * Return:0 if succesful
  */
-
 int main(void)
 {
 	char var;
+
 	for (var = 'a'; var <= 'z'; var++)
 	{
-		if var == 'e' || var == 'q')
+		if (var == 'e' || var == 'q')
 			continue;
 		putchar(var);
 	}
