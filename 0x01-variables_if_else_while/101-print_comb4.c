@@ -1,5 +1,5 @@
 #include <stdio.h>
-/** 
+/**
  * main -  prints all possible different combinations of three digits
  *
  * Return:0 if succesful
@@ -7,7 +7,6 @@
 int main(void)
 {
 	int var;
-	
 	for (var = 0; var < 8; var++)
 	{
 		int ii;
