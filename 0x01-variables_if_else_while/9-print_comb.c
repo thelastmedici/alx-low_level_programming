@@ -8,19 +8,22 @@ int main(void)
 {
 	int var;
 
+
 	for (var = 0; var < 10; var++)
 	{
 		putchar((var % 10) + '0');
 		if(var >=0 && var < 9 )
 		{
-			putchar(',')
+			putchar(',');
 			putchar(' ');
+
 		}
 		else
 			continue;
 	}
 
-	putchar('\n')
+	putchar('\n');
+
 
 	return (0);
 }
