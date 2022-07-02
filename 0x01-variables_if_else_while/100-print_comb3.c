@@ -27,7 +27,7 @@ int main(void)
 			else
 				continue;
 		}
-
+	}
 		putchar('\n');
 		
 		return (0);
