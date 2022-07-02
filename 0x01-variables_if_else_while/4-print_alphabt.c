@@ -8,7 +8,6 @@
 int main(void)
 {
 	char var;
-
 	for (var = 'a'; var <= 'z'; var++)
 	{
 		if (var == 'e' || var == 'q')
@@ -16,5 +15,5 @@ int main(void)
 		putchar(var);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
