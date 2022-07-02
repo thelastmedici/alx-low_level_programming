@@ -13,8 +13,9 @@ int main(void)
 
 		putchar((var % 10) + '0');
 
-		putchar('\n');
 
-		return(0);
+	putchar('\n');
+
+	return(0);
 }
 
