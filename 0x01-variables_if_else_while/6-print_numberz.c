@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - output all single digit number of base 10
  *
@@ -7,7 +8,7 @@
 int main(void)
 {
 	int var;
-	for (var = 0; var <=10; var++)
+	for (var = 0; var < 10; var++)
 	putchar((var % 10) + '0');
 
 	putchar('\n')
