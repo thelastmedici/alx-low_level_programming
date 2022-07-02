@@ -11,13 +11,13 @@ int main(void)
 	char var1;
 
 
-	for (var = 0; var < 10; var++);
+	for (var = 0; var < 10; var++)
 		putchar((var % 10) + '0');
 
-	
-	for (var1 = 'a'; var1 <= 'f'; var1++);
+	for (var1 = 'a'; var1 <= 'f'; var1++)
 		putchar(var1);
-	putchar(\'n');
+	putchar('\n');
+
 
 	return (0);
 }
