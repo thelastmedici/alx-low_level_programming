@@ -9,7 +9,7 @@ int main(void)
 {
 	int var;
 
-	for (var = 0; var >= 10; var++)
+	for (var = 0; var > 9; var++)
 	{
 		int ii;
 
