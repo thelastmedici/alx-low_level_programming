@@ -6,8 +6,9 @@
  *
  */
 int main(void)
-	int var;
 {
+	int var;
+
 	for (var = 0; var < 99; var++)
 	{
 		int ii;
