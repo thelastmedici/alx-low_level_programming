@@ -31,12 +31,9 @@ int main(void)
 				continue;
 		}
 
-	
 		}
-     
-       	}
+       	}	
+putchar('\n');
 	
-	putchar('\n');
-	
-	return (0);	
+return (0);	
 }
