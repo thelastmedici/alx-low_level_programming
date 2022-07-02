@@ -10,7 +10,7 @@ int main(void)
 	int var;
 	char charName;
 
-	for (var = 0; var >= 10; var++);
+	for (var = 0; var < 10; var++);
 		putchar((var % 10) + '0');
 	
 	for (charName = 'a'; charName <= 'f'; charName++);
