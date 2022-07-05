@@ -23,6 +23,7 @@ void print_to_98(int var)
 	else
 	{
 		int jj;
+
 		for (jj = var; jj <= stopLimit; jj++)
 		{
 			printf("%d", jj);
