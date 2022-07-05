@@ -5,7 +5,7 @@
  * @c: is a lowercase or uppercase letter
  * Return: 1 if c is a letter, 0 otherwise
  */
-int_isalpha(int c)
+int _isalpha(int c)
 {
 	int lower = (c >= 'a' && c <= 'z');
 	int upper = (c >= 'A' && c <= 'Z');
