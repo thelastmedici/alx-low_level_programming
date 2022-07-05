@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - prints all natural numbers from n to 98 followed by new line
  *
@@ -12,7 +13,7 @@ void print_to_98(int var)
 	{
 		int ii;
 
-		for (ii = var ii >= stopLimit; ii--)
+		for (ii = var; ii >= stopLimit; ii--)
 		{
 			printf("%d", ii);
 			if (ii != stopLimit)
