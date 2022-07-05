@@ -2,7 +2,7 @@
 /**
  * main -  prints the alphabet, in lowercase, followed by a new line.
  *
- * Return:0 if succesful
+ * Return: void 
  */
 void print_alphabet(void)
 {
