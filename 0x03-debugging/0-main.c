@@ -5,8 +5,6 @@
 * main - tests function that prints integer is postive or negative
 * Return:0
 */
-
-
 int main(void)
 {
 	int i;
