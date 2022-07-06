@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print - function to print recursivelu using _putchar
+ * print - function to print recursively using _putchar
  * @var: variable to be printed
  */
 void print(int var)
