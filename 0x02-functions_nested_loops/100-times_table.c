@@ -46,10 +46,10 @@ void print_times_table(int n)
 			}
 			if (jj < n)
 			{
-				_putchar(', ');
+				_putchar(',');
 				_putchar(' ');
 			}
 		}
-		_putchar('\n');
+i		_putchar('\n');
 	}
 }
