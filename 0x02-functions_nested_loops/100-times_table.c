@@ -10,22 +10,21 @@ void print(int var)
 	_putchar('0' + (var % 10));
 }
 /**
- * print_times_table - prints the n times table, startinf with 0
+ * print_times_table - prints the n times table, starting with 0
  * @n: time table to print
  *
- * created by asiwaju
- * cc; 5th july, 2022
+ 
  */
 
 void print_times_table(int n)
 {
 	int ii, jj, mul;
 
-	if (n < 0|| n> 15)
+	if (n < 0|| n > 15)
 		return;
 	for (ii = 0; ii <= n; ii++)
 	{
-		for (jj = 0; jj <=n; jj++)
+		for (jj = 0; jj <= n; jj++)
 		{
 			mul = ii * jj;
 			if (jj == 0)
