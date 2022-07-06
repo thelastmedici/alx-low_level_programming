@@ -1,9 +1,9 @@
 #include <stdio.h>
-#define LARGEST 10000000000
+#define LARGEST 1000000000
 /**
  * main - main block
- * Description:Find and print the first 98 fib numbers starting with 1 and 2.
- * Numbers should be coma and spaced separated.
+ * Description: Find and print the first 98 fib numbers starting with 1 and 2.
+ * Numbers should be coma and space separated.
  * Return:0
  */
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 	printf("%lu, %lu, ", bk1, bk2);
 	for (count = 2; count < 98; count++)
 	{
-		if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
+		if (bk1 + bk2 > LARGEST || fr2 > 0 ||fr1 > 0)
 		{
 			hold1 = (bk1 + bk2) / LARGEST;
 			hold2 = (bk1 + bk2) % LARGEST;
@@ -31,10 +31,8 @@ int main(void)
 			printf("%lu", bk2);
 		}
 		if (count != 97)
-			printf(", ");
+			print(", ");
 	}
 	printf("\n");
 	return (0);
 }
-	
-	
