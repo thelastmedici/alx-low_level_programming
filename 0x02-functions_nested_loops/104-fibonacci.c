@@ -15,11 +15,11 @@ int main(void)
 	printf("%lu, %lu, ", bk1, bk2);
 	for (count = 2; count < 98; count++)
 	{
-		if (bk1 + bk 2 > LARGEST || fr2 > 0 || fr1 > 0)
+		if (bk1 + bk2 > LARGEST || fr2 > 0 || fr1 > 0)
 		{
 			hold1 = (bk1 + bk2) / LARGEST;
 			hold2 = (bk1 + bk2) % LARGEST;
-			hold3 = fr1 + fr2 +hold1;
+			hold3 = fr1 + fr2 + hold1;
 			fr1 = fr2, fr2 = hold3;
 			bk1 = bk2, bk2 = hold2;
 			printf("%lu%010lu", fr2, bk2);
