@@ -22,3 +22,4 @@ void puts_half(char *s)
 
 
 	_putchar('\n');
+}
