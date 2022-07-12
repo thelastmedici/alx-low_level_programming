@@ -7,7 +7,7 @@
  *
  * dubbed by asiwaju
  */
-void puts_half(char *str)
+void puts_half(char *s)
 {
 	int len = strlen(s), i;
 
