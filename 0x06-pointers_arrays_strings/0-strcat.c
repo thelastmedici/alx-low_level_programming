@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strcat -> this is a function strcat
  * @dest: first param
@@ -19,5 +18,5 @@ char *_strcat(char *dest, char *src)
 		len += 1;
 	}
 	dest[len] = '\0';
-	return (dest)
+	return (dest);
 }
