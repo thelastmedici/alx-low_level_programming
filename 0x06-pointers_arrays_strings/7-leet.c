@@ -5,15 +5,15 @@
  * leet - encode into a string
  * @s: pointer to the string variable
  *
- * Return:pointer to s
- *
+ * Return: pointer to s
  */
+
 char *leet(char *s)
 {
 	int i = 0, j;
 	char testCase1[] = "aeotl";
 	char testCase2[] = "AEOTL";
-	cahr valid[] = "43071";
+	char valid[] = "43071";
 
 	while (s[i] != '\0')
 	{
