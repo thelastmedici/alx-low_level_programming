@@ -4,13 +4,11 @@
  * @s: int type array pointer
  * Return: encoded
  */
-
 char *rot13(char *s)
 {
 int i, ii;
 char input[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 char output[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
-
 for (i = 0; s[i] != '\0'; i++)
 {
 	for (ii = 0; input[ii] != '\0'; ii++)
@@ -19,7 +17,6 @@ for (i = 0; s[i] != '\0'; i++)
 		{
 			s[i] = output[ii];
 			break;
-
 		}
 	}
 }
