@@ -8,8 +8,7 @@
  * Return: the number of bytes in the initial segment of s
  * dubbed by asiwaju
  */
-
-unsigned int_strspn(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	return (strspn(s, accept));
 }
