@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>"
+#include <stdio.h>
 
 /**
 * print_diagsums - prints the sum of leading diagonal
@@ -23,6 +23,7 @@ void print_diagsums(int *a, int size)
 		else if (i % (size - 1) == 0 && i && i < size * size - 2)
 		sumTrailDiag += a[i]
 	}
+
 	printf("%d, %d", sumDiag, sumTrailDiag);
 	putchar('\n');
 }
