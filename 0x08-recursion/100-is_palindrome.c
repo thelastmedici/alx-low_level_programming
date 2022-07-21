@@ -10,6 +10,7 @@ int check(char *, int, int, int);
 int last_index(char *s)
 {
 	int n = 0;
+
 	if (*s > '\0')
 		n += last_index(s + 1) + 1;
 
