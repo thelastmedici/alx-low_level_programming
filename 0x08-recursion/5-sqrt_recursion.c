@@ -8,7 +8,7 @@ int square(int, int);
  *  Return: the square root of integer n
  *
  */
- 
+
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
