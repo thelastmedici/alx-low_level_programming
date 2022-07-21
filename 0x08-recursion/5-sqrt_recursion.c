@@ -2,7 +2,7 @@
 
 int square(int, int);
 /**
- * _sqrt_recursion - find the square root of natural number
+ *  _sqrt_recursion - find the square root of natural number
  * @n: integer whose square root is to be found
  *
  * Return : the square root of integer n
