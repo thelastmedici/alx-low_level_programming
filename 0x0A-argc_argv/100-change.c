@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 			count += money / 1;
 			money %= 1;
 		}
-	}while (money);
+	} while (money);
 	printf("%d\n", count);
 	exit(EXIT_SUCCESS);
 }
