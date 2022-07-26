@@ -5,13 +5,12 @@
 /**
  * create_array - create an array of char
  * @size: size of the array
- *
  * @arr: character
  *
  * Return: pointer to the array or null if it fails
- *
  */
-char *create_array(unsigned int size, char c)
+
+char *create_array(unsigned int size, char arr)
 {
 	char *array_alloc = malloc(size * sizeof(char));
 	unsigned int i;
