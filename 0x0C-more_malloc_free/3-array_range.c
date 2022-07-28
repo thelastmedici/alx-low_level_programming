@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * array_range - Cretes an array of integers ordered from min t	*o max, inclusive.
+ * array_range - Cretes an array of integers ordered from min t	*o max.
  * @min: The first value of the array
  * @max: The last value of the array.
  * Return: If min > max or the function fails - NULL.
