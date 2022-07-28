@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- *  _print - moves a string one place to the left and prints th	*	e string
+ *  _print - moves a string one place to the left and prints t
+ *  		the string
  *  @str: string to move
  *  @l: size of string
  *  Return: void
@@ -67,24 +68,25 @@ return (NULL);
 return (dest);
 }
 /**
- * check_for_digits - checks the arguments to ensure they are d	*	igits
+ * check_for_digits - checks the arguments to ensure they are *			digits
  * @av: pointer to arguments
  * Return: 0 if digits, 1 if not
  */
 int check_for_digits(char **av)
 {
-	int i, j;
+int i, j;
 
-	for (i = 1; i < 3; i++)
-	{
-	for (j = 0; av[i][j]; j++)
-	{
-	if (av[i][j] < '0' || av[i][j] > '9')
-	return (1);
-	}
-	}
-	return (0);
+for (i = 1; i < 3; i++)
+{
+for (j = 0; av[i][j]; j++)
+{
+if (av[i][j] < '0' || av[i][j] > '9')
+return (1);
 }
+}
+return (0);
+}
+
 /**
  * init - initializes a string
  * @str: sting to initialize
@@ -93,11 +95,11 @@ int check_for_digits(char **av)
  */
 void init(char *str, int l)
 {
-	int i;
+int i;
 
-	for (i = 0; i < l; i++)
-	str[i] = '0';
-	str[i] = '\0';
+for (i = 0; i < l; i++)
+str[i] = '0';
+str[i] = '\0';
 }
 
 /**
@@ -125,16 +127,6 @@ for (l2 = 0; argv[2][l2]; l2++)
 ln = l1 + l2 + 1;
 a = malloc(ln *sizeof(char));
 if (a == NULL)
-{
-for (ti = 0; e[ti]; ti++)
-_putchar(e[ti]);
-exit(98);
-}
-init(a, ln - 1);
-for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
-{
-t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
-if (t == NULL)
 {
 for (ti = 0; e[ti]; ti++)
 _putchar(e[ti]);
