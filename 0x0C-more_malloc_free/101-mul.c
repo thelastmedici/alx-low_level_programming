@@ -25,6 +25,7 @@ i++;
 _putchar('\n');
 free(str);
 }
+
 /**
  * mul - multiplies a char with a string and places the answer*		into dest
  *  @n: char to multiply
@@ -113,9 +114,9 @@ char *t;
 char e[] = "Error\n";
 if (argc != 3 || check_for_digits(argv))
 {
-	for (ti = 0; e[ti]; ti++)
-	_putchar(e[ti]);
-	exit(98);
+for (ti = 0; e[ti]; ti++)
+_putchar(e[ti]);
+exit(98);
 }
 for (l1 = 0; argv[1][l1]; l1++)
 ;
