@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- *  _print - moves a string one place to the left and prints t
- *		the string
+ * _print - moves a string one place to the left and prints th*			e string
  *  @str: string to move
  *  @l: size of string
  *  Return: void
@@ -28,7 +27,7 @@ free(str);
 }
 
 /**
- * mul - multiplies a char with a string and places the answer*		into dest
+ *  mul - multiplies a char with a string and places the answe*		r into dest
  *  @n: char to multiply
  *  @num: string to multiply
  *  @num_index: last non NULL index of num
@@ -55,12 +54,6 @@ add = (dest[k] - '0') + addrem;
 addrem = add / 10;
 dest[k] = add % 10 + '0';
 }
-for (addrem += mulrem; k >= 0 && addrem; k--)
-{
-add = (dest[k] - '0') + addrem;
-addrem = add / 10;
-dest[k] = add % 10 + '0';
-}
 if (addrem)
 {
 return (NULL);
@@ -68,7 +61,7 @@ return (NULL);
 return (dest);
 }
 /**
- * check_for_digits - checks the arguments to ensure they are *			digits
+ * check_for_digits -  checks the arguments to ensure they are *	digits
  * @av: pointer to arguments
  * Return: 0 if digits, 1 if not
  */
@@ -127,6 +120,16 @@ for (l2 = 0; argv[2][l2]; l2++)
 ln = l1 + l2 + 1;
 a = malloc(ln *sizeof(char));
 if (a == NULL)
+{
+for (ti = 0; e[ti]; ti++)
+_putchar(e[ti]);
+exit(98);
+}
+init(a, ln - 1);
+for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
+{
+t = mul(argv[2][ti], argv[1], l1 - 1, a, (ln - 2) - i);
+if (t == NULL)
 {
 for (ti = 0; e[ti]; ti++)
 _putchar(e[ti]);
