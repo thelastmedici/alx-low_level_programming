@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * string_nconcat - Concatenates two strings using
- * 		at most an inputted number of bytes.
+ *			at most an inputted number of bytes.
  * @s1: The first string.
  * @s2: The second string.
  * @n: The maximum number of bytes for s2 to concatenate to s1.
