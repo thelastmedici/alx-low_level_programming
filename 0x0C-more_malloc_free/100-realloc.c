@@ -29,6 +29,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 		return (mem);
 	}
+
 	if (new_size == 0 && ptr != NULL)
 	{
 		free(ptr);
@@ -44,10 +45,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (NULL);
 	}
 
-	filter = mem;
+	filler = mem;
 
 	for (index = 0; index < old_size && index < new_size; index++)
 		filler[index] = *ptr_copy++;
+
 	free(ptr);
 	return (mem);
 }
