@@ -4,7 +4,7 @@
 
 /**
  *  _print - moves a string one place to the left and prints t
- *  		the string
+ *		the string
  *  @str: string to move
  *  @l: size of string
  *  Return: void
