@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	}
 
 	res = get_op_func(get_op)
-	
+
 	ans = res(one, two);
 
 	printf("%d\n", ans);
