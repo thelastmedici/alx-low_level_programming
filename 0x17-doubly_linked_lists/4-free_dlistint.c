@@ -9,7 +9,7 @@ dlistint_t *tmp;
 while (head)
 {
 tmp = head->next;
-free(head);
-head = tmp;
+	free(head);
+	head = tmp;
 }
-
+}
