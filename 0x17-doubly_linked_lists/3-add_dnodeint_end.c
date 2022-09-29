@@ -14,8 +14,9 @@ if (newnode == NULL)
 return (NULL);
 newnode->n = n;
 newnode->next = NULL;
+{
 if (*head == NULL)
-newnode->prev = NULL;
+	newnode->prev = NULL;
 *head = newnode;
 return (newnode);
 }
